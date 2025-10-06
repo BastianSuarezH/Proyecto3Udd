@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Wide Wiskys!</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/2008455-795548.svg">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+<body>
+    <header>
+        <h1>World Wide Whiskys!</h1>
+        
+    <nav>
+        <img class="navbar-logo transition3seg" src="./assets/img/2008455-795548.svg" alt="Logo" width="40">
+        <ul class="navbar-items d-flex flex-center">
+            <li class="navbar-item transition3seg"><a href="#nuestrosWhiskys">Nuestros Whiskys</a></li>
+            <li class="navbar-item transition3seg"><a href="#productos">Productos</a></li>
+            <li class="navbar-item transition3seg"><a href="#contacto">Contacto</a></li>
+            <li class="navbar-item transition3seg"><a href="#footer">Sobre Nosotros</a></li>
+        </ul>
+        <div>
+            <button class="transition3seg login-btn">Iniciar Sesión</button>
+            <button class="transition3seg register-btn">Registrate</button>
+        </div>
+    </nav>
+    </header>
+<main>
+    <section id="nuestrosWhiskys"> <!-- Nuestros Whiskys -->
+
+        <p>En World Wide Whiskys, nos especializamos en ofrecer una amplia variedad de whiskys de alta calidad de todo el mundo. Ya sea que seas un conocedor experimentado o un principiante curioso, tenemos algo para todos los gustos.</p>
+
+        <article class="card">
+            <h2>Scotch</h2>
+            <div class="card-body">
+                <img class="card-img" src="./assets/img/Flag_of_Scotland.svg.png" alt="Scotch">
+                <p>Producido en Escocia, se elabora principalmente con cebada malteada y se destila dos veces. Debe envejecer mínimo 3 años en barricas de roble. Tiene un sabor característico con notas ahumadas o de turba (especialmente los de Islay).</p>
+            </div>
+        <article class="card">
+            <h2>American Whiskey</h2>
+            <div class="card-body">
+                <img class="card-img" src="./assets/img/Flag_of_the_United_States.svg.png" alt="American Whiskey">
+                <p>De Estados Unidos, suele ser dulce y con notas de vainilla o caramelo. Su mayor exponente es el bourbon.</p>
+            </div>
+        <article class="card">
+            <h2>Irish Whiskey</h2>
+            <div class="card-body">
+                <img class="card-img"src="./assets/img/Flag_of_Ireland.svg.png" alt="Irish Whiskey">
+                <p>Elaborado en Irlanda, generalmente a partir de una mezcla de cebada malteada y sin maltear, y se destila tres veces, lo que le da un perfil más suave y ligero. También envejece al menos 3 años en madera.</p>
+            </div>
+
+        <article class= "card">
+            <h2>Otros</h2>
+            <div class="card-body">
+                <img class="card-img" src="./assets/img/OTROS.png" alt="Otros">
+                <p>Suelen variar en sabor y método, pero en general tienden a ser más suaves y equilibrados, adaptando el estilo a sus tradiciones locales. Claros ejemplos son los japoneses y los canadienses.</p>
+            </div>
+    </section>
+
+    <section id="productos"> <!-- Productos -->
+        <h2>Nuestros productos</h2>
+        <ul>
+            <li>Whisky Johnnie Walker Blue Label</li>
+                <div class="product-image">
+                    <img class="product-img" src="./assets/img/blue label.png" alt="Johnnie Walker Blue Label">
+                </div>
+            <li>Whisky Buchanans</li>
+            <div class="product-image">
+                    <img class="product-img" src="./assets/img/buchanans.png" alt="Buchanans">
+                </div>
+            <li>Whisky Chivas Regal Extra</li>
+            <div class="product-image">
+                    <img class="product-img" src="./assets/img/chivas.png" alt="Chivas Regal Extra">
+                </div>
+            <li>Whisky Jack Daniel's</li>
+            <div class="product-image">
+                    <img class="product-img" src="./assets/img/jack.png" alt="Jack Daniel's">
+                </div>
+            <li>Whisky Jack Daniel's Apple</li>
+            <div class="product-image">
+                    <img class="product-img" src="./assets/img/jack manzana.png" alt="Jack Daniel's Apple">
+                </div>
+            <li>Whisky Jack Daniel's Gentleman</li>
+            <div class="product-image">
+                    <img class="product-img" src="./assets/img/gentleman.png" alt="Jack Daniel's Gentleman">
+                </div>
+            <li>Whisky Jameson</li>
+            <div class="product-image">
+                    <img class="product-img" src="./assets/img/jameson.png" alt="Jameson">
+                </div>
+            <li>Whisky Sasakawa</li>
+            <div class="product-image">
+                    <img class="product-img" src="./assets/img/Sasakawa.png" alt="Sasakawa">
+                </div>
+            <li>Whisky Fireball Cinnamon</li>
+            <div class="product-image">
+                    <img class="product-img" src="./assets/img/fireball.png" alt="Fireball Cinnamon">
+                </div>
+        </ul>
+    </section>
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Completa el siguiente formulario y te responderemos pronto:</p>     
+            <form>
+                
+                <!-- Correo electronico -->
+                <label for="email">Correo electronico:</label><br>
+                <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required><br><br>
+                
+                <!-- Asunto -->
+                <label for="asunto">Asunto:</label><br>
+                <input type="text" id="asunto" name="asunto" placeholder="Escribe el asunto" required><br><br>
+                
+                <!-- Comentario -->
+                <label for="comentario">Comentario:</label><br>
+                <textarea id="comentario" name="comentario" rows="5" placeholder="Escribe tu mensaje..." required></textarea><br><br>
+                <button class="contact-btn">enviar</button>                
+            </form>            
+        </section>
+
+</main>
+    <section id="footer"></section>
+    <footer>
+        <P> Contáctanos: info@worldwidewhiskys.com</P>
+        <p> Teléfono: +34 123 456 789</p>
+        <p> Facebook: facebook.com/worldwidewhiskys</p>
+        <p> Instagram: instagram.com/worldwidewhiskys</p>
+        <p> X: x.com/worldwidewhiskys</p>
+        <p>&copy; 2025 World Wide Whiskys Inc.</p>
+    </footer>
+</body>
+</html>
